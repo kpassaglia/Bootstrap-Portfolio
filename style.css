@@ -156,5 +156,32 @@ p{
     margin-left: 10px;
     margin-right:10px;
     padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+}
+
+
+.img-fluid.float-left{
+    height: auto;
+    width: 33%;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+.col-{
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 768px) {
+    .img-fluid.float-left{
+        height: auto;
+        width: 66%;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .img-fluid.float-left{
+        height: auto;
+        width:94% !important;
+       
+    }
 
 }
